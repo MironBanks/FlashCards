@@ -7,7 +7,6 @@ export default function FlashCardList({ flashcards }) {
             {flashcards.map(flashcard => {
                 return <FlashCard flashcard={flashcard} key={flashcard.id} />
             })}
-
         </div>
     )
 }
